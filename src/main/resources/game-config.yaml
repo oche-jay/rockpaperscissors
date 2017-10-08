@@ -1,0 +1,21 @@
+no_of_players: 3
+players:
+  - rock
+  - paper
+  - scissors
+rules:
+  -
+    player: rock
+    beats:
+      - player: scissors
+        verb: "smashes"
+  -
+    player: paper
+    beats:
+      - player: rock
+        verb: "covers"
+  -
+     player: scissors
+     beats:
+       - player: paper
+         verb: "cuts"

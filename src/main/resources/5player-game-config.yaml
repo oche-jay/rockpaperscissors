@@ -1,0 +1,43 @@
+no_of_players: 5
+players:
+  - rock
+  - paper
+  - scissors
+  - lizard
+  - spock
+rules:
+  -
+     player: rock
+     beats:
+      - player: scissors
+        verb: "smashes"
+      - player: lizard
+        verb: "crushes"
+  -
+     player: scissors
+     beats:
+      - player: paper
+        verb: "covers"
+      - player: lizard
+        verb: "decaps"
+  -
+     player: paper
+     beats:
+      - player: rock
+        verb: "cuts"
+      - player: spock
+        verb: "disproves"
+  -
+     player: spock
+     beats:
+      - player: scissors
+        verb: "smashes"
+      - player: rock
+        verb: "vaporises"
+  -
+     player: lizard
+     beats:
+      - player: spock
+        verb: "poisons"
+      - player: paper
+        verb: "eats"
