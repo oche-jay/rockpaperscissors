@@ -67,11 +67,11 @@ so that I can spend an hour of my day having fun
                                                  
 Acceptance Criteria                             
 
-  - [ ] Can I play Player vs Computer?           
+  - [x] Can I play Player vs Computer?           
 
-  - [ ] Can I play Computer vs Computer?              
+  - [x] Can I play Computer vs Computer?              
 
-  - [ ] Can I play a different game each time?      
+  - [x] Can I play a different game each time?      
   
   
 Note: the acceptance criteria should be validated manually by a human, especially as 
