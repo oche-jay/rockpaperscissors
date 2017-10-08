@@ -70,7 +70,7 @@ public class GameTest {
         Player scissors = new Player("scissors");
 
         return new Object[][]{
-                {rock, paper, rock},
+                {rock, paper, paper},
                 {paper, rock, paper},
                 {scissors, paper, scissors},
                 {paper, scissors, scissors},

@@ -1,4 +1,5 @@
-# rockpaperscissors
+# rockpaperscissors 
+https://travis-ci.org/oche-jay/rockpaperscissors.svg?branch=master
 
 A simple, configurable Rock-Paper-Scissors Game.
 
