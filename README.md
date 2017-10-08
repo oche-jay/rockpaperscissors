@@ -49,9 +49,35 @@ which describes.
 
 ## Tests
 
-The tests are located in src/test/java
+The tests are located in src/test/java folder.
 
-ConfigTest.java validates the config file and makes sure certain rules, constraints are followed.
+[ConfigTest.java](/src/test/java/ConfigTest.java) validates the [config file] DSL and makes sure certain rules, constraints are followed.
+Most of the Game's validation is done here, if the config file is properly set up
+and passes the validation, then there is less likelihood of unexpected bugs in the Game itself.
 
-GameTest.java ensures that based on the default configurations, the programme is working as expected.
+[GameTest.java](/src/test/java/ConfigTest.java) ensures that based on the default configurations, the programme is working as expected.
+
+### Acceptance Tests
+
+#### Title: Waste an Hour Having Fun              
+                                                 
+As a frequent games player,                      
+I'd like to play rock, paper, scissors          
+so that I can spend an hour of my day having fun 
+                                                 
+Acceptance Criteria                             
+
+  - [ ] Can I play Player vs Computer?           
+
+  - [ ] Can I play Computer vs Computer?              
+
+  - [ ] Can I play a different game each time?      
+  
+  
+Note: the acceptance criteria should be validated manually by a human, especially as 
+the users of the Game will, be invariably, human.
+
+
+
+
 
