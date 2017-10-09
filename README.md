@@ -10,9 +10,9 @@ To test, and run software from the command lines (Mac OSX or Linux assumed)
      mvn test exec:java
      
 The game is dependent on and can be easily extended/modified using the 
-game-config.yaml file located in src/main/resources. This is the 
+[game-config.yaml](src/main/resources/game-config.yaml) file located in src/main/resources. This is the 
 default configuration, more complex game scenarios can be configured,
-e.g. see 5player-game-config.yaml.
+e.g. see [5player-game-config.yaml] (src/main/resources/5player-game-config.yaml).
 
      no_of_players: 3
      players:
