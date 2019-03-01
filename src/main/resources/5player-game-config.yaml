@@ -17,14 +17,14 @@ rules:
      player: scissors
      beats:
       - player: paper
-        verb: "covers"
+        verb: "cuts"
       - player: lizard
         verb: "decaps"
   -
      player: paper
      beats:
       - player: rock
-        verb: "cuts"
+        verb: "covers"
       - player: spock
         verb: "disproves"
   -
